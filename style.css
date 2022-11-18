@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+/* Section 1 */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.name {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%);
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
+.line {
+  height: 2px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 1px;
+  position: absolute;
+  top: 54.3%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.title {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%);
+  color: rgb(255, 255, 255);
+}
+
+.mtn {
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+}
+
+/* Section 2 */
+
+.content {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.profiletext {
+  color: rgb(19, 100, 39);
+  position: absolute;
+  margin-top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 3rem;
+}
+
+.line2 {
+  position: absolute;
+  margin-top: 120px;
+  left: 50%;
+  height: 1px;
+  width: 600px;
+  background-color: rgb(149, 149, 149);
+  border-radius: 1px;
+  position: absolute;
+  transform: translate(-50%);
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.content h4 {
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 1.1rem;
+}
+
+.aboutme {
+  width: 330px;
+  margin: 200px 30px 0px 0px;
+}
+
+.profile {
+  position: relative;
+  max-width: 350px;
+  max-height: 350px;
+  margin-top: 150px;
+}
+
+.details {
+  position: relative;
+  width: 250px;
+  margin: 200px 30px 0px 80px;
+}
+
+/* Section 3 */
+
+.content2 {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  min-height: 30vh;
+}
+
+.skills {
+  color: rgb(19, 100, 39);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 3rem;
+}
+
+.skilllist {
+  padding-top: 110px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.line3 {
+  position: absolute;
+  margin-top: 75px;
+  left: 50%;
+  height: 1px;
+  width: 600px;
+  background-color: rgb(149, 149, 149);
+  border-radius: 1px;
+  position: absolute;
+  transform: translate(-50%);
+}
+
+/* Section 4 */
+
+.content3 {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  min-height: 20vh;
+}
+
+.plist {
+  
+}
