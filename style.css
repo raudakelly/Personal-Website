@@ -2,8 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: rgb(0, 0, 0);
   font-family: sans-serif;
+}
+
+#body {
+  background-color: var(--color-mode);
+  color: var(--text-color);
+}
+
+:root {
+  --color-mode: #091723;
+  --text-color: #ffffff;
 }
 
 /* Section 1 */
@@ -13,71 +22,50 @@
   height: 100vh;
 }
 
-.name {
+#color-mode{
+  height: 50px;
+  width: 50px;
   position: absolute;
-  top: 47%;
-  left: 50%;
-  transform: translate(-50%);
-  color: rgb(255, 255, 255);
-  font-size: 3rem;
+  top: 1%;
+  left: 95%;
 }
 
-.line {
-  height: 2px;
-  width: 400px;
-  background-color: #fff;
-  border-radius: 1px;
+#color-mode:hover{
+  cursor: pointer;
+}
+
+.name {
   position: absolute;
-  top: 54.3%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%);
+  font-size: 3rem;
 }
 
 .title {
   position: absolute;
-  top: 56%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%);
-  color: rgb(255, 255, 255);
 }
 
-.mtn {
-  width: 100%;
+
+.profile {
   position: absolute;
-  object-fit: cover;
-  height: 100vh;
-  z-index: -1;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+  height: 400px;
+  width: 400px;
 }
 
 /* Section 2 */
 
 .content {
   width: 100%;
-  background-color: rgb(255, 255, 255);
   min-height: 70vh;
   display: flex;
   justify-content: center;
-}
-
-.profiletext {
-  color: rgb(19, 100, 39);
-  position: absolute;
-  margin-top: 40px;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 3rem;
-}
-
-.line2 {
-  position: absolute;
-  margin-top: 120px;
-  left: 50%;
-  height: 1px;
-  width: 600px;
-  background-color: rgb(149, 149, 149);
-  border-radius: 1px;
-  position: absolute;
-  transform: translate(-50%);
 }
 
 .content h2 {
@@ -99,13 +87,6 @@
   margin: 200px 30px 0px 0px;
 }
 
-.profile {
-  position: relative;
-  max-width: 350px;
-  max-height: 350px;
-  margin-top: 150px;
-}
-
 .details {
   position: relative;
   width: 250px;
@@ -116,7 +97,6 @@
 
 .content2 {
   width: 100%;
-  background-color: rgb(255, 255, 255);
   min-height: 30vh;
 }
 
@@ -140,7 +120,6 @@
   left: 50%;
   height: 1px;
   width: 600px;
-  background-color: rgb(149, 149, 149);
   border-radius: 1px;
   position: absolute;
   transform: translate(-50%);
@@ -150,7 +129,6 @@
 
 .content3 {
   width: 100%;
-  background-color: rgb(255, 255, 255);
   min-height: 20vh;
 }
 
