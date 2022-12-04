@@ -1,0 +1,15 @@
+int start;
+int end;
+int inc;
+int current;
+int c;
+int k;
+read(start, end, inc);
+for(current = start; current <= end; current = current + inc) {
+  c = current - 32;
+  c = c * 5/9;
+  k = current + 460;
+  k = k * 5/9;
+  print(current, c, k);
+  printline;
+}

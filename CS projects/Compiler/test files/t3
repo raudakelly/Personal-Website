@@ -1,0 +1,11 @@
+int i;
+int j;
+int k;
+int m;
+read(i, j, k, m);
+print(i, j, k, m);
+printline;
+print(i^j * k + m, m + k * i^j);
+printline;
+printspaces(2*2+4);
+print(i, j, k, m);
