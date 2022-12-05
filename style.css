@@ -15,9 +15,9 @@
   --text-color: #ffffff;
 }
 
-/* Section 1 */
+/* Profile section */
 
-.container {
+.profile {
   width: 100%;
   height: 100vh;
 }
@@ -44,13 +44,13 @@
 
 .title {
   position: absolute;
-  top: 27%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%);
 }
 
 
-.profile {
+.profile-pic {
   position: absolute;
   top: 35%;
   left: 50%;
@@ -59,13 +59,24 @@
   width: 400px;
 }
 
-/* Section 2 */
+/* Skills section */
 
-.content {
+.skills {
   width: 100%;
-  min-height: 70vh;
-  display: flex;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills h3 {
+  color: rgb(19, 100, 39);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.skill-img {
+  width: 200px;
+  height: auto;
 }
 
 .content h2 {
@@ -73,65 +84,15 @@
   margin-bottom: 15px;
 }
 
-.content h4 {
-  font-weight: 200;
-  margin-bottom: 15px;
-}
-
-.content p {
-  font-size: 1.1rem;
-}
-
-.aboutme {
-  width: 330px;
-  margin: 200px 30px 0px 0px;
-}
-
-.details {
-  position: relative;
-  width: 250px;
-  margin: 200px 30px 0px 80px;
-}
-
-/* Section 3 */
-
-.content2 {
-  width: 100%;
-  min-height: 30vh;
-}
-
-.skills {
-  color: rgb(19, 100, 39);
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 3rem;
-}
-
-.skilllist {
-  padding-top: 110px;
+.skill-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.line3 {
-  position: absolute;
-  margin-top: 75px;
-  left: 50%;
-  height: 1px;
-  width: 600px;
-  border-radius: 1px;
-  position: absolute;
-  transform: translate(-50%);
-}
+/* Projects section */
 
-/* Section 4 */
-
-.content3 {
+.projects {
   width: 100%;
-  min-height: 20vh;
-}
-
-.plist {
-  
+  display: flex;
 }
