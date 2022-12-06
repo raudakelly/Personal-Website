@@ -76,7 +76,12 @@
 
 .skill-img {
   width: 200px;
-  height: auto;
+  height: 200px;
+}
+
+.skill {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .content h2 {
